@@ -1,0 +1,12 @@
+<li class="{{widget_id}} widget">
+  <div class="fcw_header">
+    <h2>{{widget_title}}</h2>
+  </div>  
+  {% for item in fcw_content %}
+      {% if item.acf_fc_layout == 'banner' %}
+        {% include ['flexible_content_widget/content/' ~ item.template ~ '.twig', 'flexible_content_widget/content/banner.twig'] %}        
+      {% elseif item.acf_fc_layout == 'menu' %}
+          {% include ['flexible_content_widget/content/' ~ item.template ~ '.twig', 'flexible_content_widget/content/menu.twig'] %}
+      {% endif %}
+  {% endfor %}
+</li>

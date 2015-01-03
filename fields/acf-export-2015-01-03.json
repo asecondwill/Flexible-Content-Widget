@@ -1,0 +1,80 @@
+[
+    {
+        "key": "group_54a768b458c56",
+        "title": "Flexible Content Widget",
+        "fields": [
+            {
+                "key": "field_54a768c3618e6",
+                "label": "Flexible Content",
+                "name": "flexible_content",
+                "prefix": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "button_label": "Add Row",
+                "min": "",
+                "max": "",
+                "layouts": [
+                    {
+                        "key": "54a768f8d8a51",
+                        "name": "banner",
+                        "label": "Banner",
+                        "display": "row",
+                        "sub_fields": [
+                            {
+                                "key": "field_54a7695b618e7",
+                                "label": "image",
+                                "name": "image",
+                                "prefix": "",
+                                "type": "image",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "return_format": "array",
+                                "preview_size": "thumbnail",
+                                "library": "all"
+                            },
+                            {
+                                "key": "field_54a7697c618e8",
+                                "label": "Link",
+                                "name": "link",
+                                "prefix": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "column_width": "",
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": "",
+                                "readonly": 0,
+                                "disabled": 0
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "widget",
+                    "operator": "==",
+                    "value": "flex_widget"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    }
+]
